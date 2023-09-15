@@ -23,9 +23,12 @@ func getData(urlRequest: String) {
 """
 Card name: "\(result.cards.first?.name ?? String())
 Card type: \(result.cards.first?.type ?? String())
-Card text: \(result.cards.first?.text ?? String())
-Card rerity: \(result.cards.first?.rarity ?? String())
+Card manacost: \(result.cards.first?.manaCost ?? String())
+Card rarity: \(result.cards.first?.rarity ?? String())
 Card set: \(result.cards.first?.set ?? String())
+Card artist: \(result.cards.first?.artist ?? String())
+Card number: \(result.cards.first?.number ?? String())
+Card power: \(result.cards.first?.power ?? String())
 
 """
                 )
